@@ -1,0 +1,28 @@
+
+project_id = "wadzqoyuctednxhymcju"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage"]
+
+[db]
+port = 54322
+
+[realtime]
+enabled = true
+
+[studio]
+enabled = true
+port = 54323
+
+[inbucket]
+enabled = true
+port = 54324
+
+[functions]
+[functions.chatbot]
+verify_jwt = false
+
+[functions.chatbot-data]
+verify_jwt = false
